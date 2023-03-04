@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "Mitt i terminen"
 date:   2022-06-02 17:23:59 +0900
 categories: japan update
+header:
+  image: /assets/images/headers/2022-06-02-mitt-i-terminen.jpg
+  teaser: /assets/images/headers/2022-06-02-mitt-i-terminen.jpg
 ---
 
 ## Mitt i första terminen

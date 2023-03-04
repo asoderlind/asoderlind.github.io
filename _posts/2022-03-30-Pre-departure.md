@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "Pre-departure"
 date:   2022-03-30 17:23:59 +0900
 categories: japan update
+header:
+  image: /assets/images/headers/2022-03-30-Pre-departure.jpg
+  teaser: /assets/images/headers/2022-03-30-Pre-departure.jpg
 ---
 
 ## Hur kom vi hit?
