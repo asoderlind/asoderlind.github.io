@@ -3,5 +3,5 @@ title: "About"
 layout: single
 permalink: /about/
 ---
-# Hello my name is Ax
-el
+# About
+This page is a work in progress hehe
