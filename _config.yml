@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark"
 
 # Site Settings
 locale: "en-US"
@@ -21,11 +21,11 @@ title_separator: "-"
 subtitle: ""
 name: "Axel Söderlind"
 description: "Blog and Portfolio"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://www.soderlind.dev"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "asoderlind/asoderlind.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo: "/assets/images/favicons/favicon.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag"
   google:
     tracking_id: "G-ZVBXM2P6YW"
     anonymize_ip: false # true, false (default)
