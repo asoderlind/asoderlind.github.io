@@ -115,6 +115,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/asoderlind"
+    - label: "Mail"
+      icon: "fa fa-fw fa-envelope"
+      url: "mailto:axesode@gmail.com"
 
 # Site Footer
 footer:
