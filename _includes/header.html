@@ -1,0 +1,10 @@
+<header>
+  <div class="site-title">
+    <a href="{{ '/' | relative_url }}">{{ site.title | default: "soderlind.dev" }}</a>
+  </div>
+  <nav>
+    {% for link in site.data.navigation.main %}
+      <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

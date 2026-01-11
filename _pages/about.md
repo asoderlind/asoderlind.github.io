@@ -1,9 +1,7 @@
 ---
 title: "About"
-layout: single
+layout: page
 permalink: /about/
 ---
-
-# About
 
 This page is a work in progress hehe
