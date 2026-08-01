@@ -1,13 +1,13 @@
 <footer>
   <div>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
-  {% if site.author.links %}
   <div class="footer-links">
+    {% if site.author.links %}
     {% for link in site.author.links %}
       {% if link.url %}
         <a href="{{ link.url }}">{{ link.label }}</a>
       {% endif %}
     {% endfor %}
+    {% endif %}
+    <a href="https://iheartrss.com/">I &hearts; RSS</a>
   </div>
-  {% endif %}
-  <a href="https://iheartrss.com/">I &hearts; RSS</a>
 </footer>
