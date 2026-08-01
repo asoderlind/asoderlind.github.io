@@ -6,7 +6,7 @@ permalink: /feed.xml
 <rss version="2.0">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <link>{{ site.url | append: site.baseurl }}</link>
+    <link>{{ '/' | absolute_url }}</link>
     <description>{{ site.description | xml_escape }}</description>
     <language>{{ site.locale | default: "en-US" }}</language>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
