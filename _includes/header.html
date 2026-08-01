@@ -1,6 +1,7 @@
 <header>
   <div class="site-title">
     <a href="{{ '/' | relative_url }}">{{ site.title | default: "soderlind.dev" }}</a>
+    <img class="site-title-gif" src="{{ '/assets/gifs/shiba1.gif' | relative_url }}" alt="" width="32" height="32">
   </div>
   <nav>
     {% for link in site.data.navigation.main %}

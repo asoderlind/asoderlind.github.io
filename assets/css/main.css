@@ -117,6 +117,12 @@ header {
   color: var(--link-hover);
 }
 
+.site-title-gif {
+  vertical-align: middle;
+  margin-left: 0.4em;
+  image-rendering: pixelated;
+}
+
 nav {
   font-size: 0.95rem;
 }
