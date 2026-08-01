@@ -60,7 +60,6 @@ paginate_path: /page:num/
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
 
 # Defaults
 defaults:
