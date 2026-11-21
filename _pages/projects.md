@@ -35,6 +35,13 @@ A selection of personal tools, experiments, and academic work.
     <figcaption><a href="https://github.com/asoderlind/kanji-crush">Kanji Crush</a>: A Japanese word puzzle: swap character tiles to form three-character compound words, with more tiles introduced at each level.</figcaption>
   </figure>
 
+  <figure class="project-card">
+    <a class="project-preview" href="https://github.com/asoderlind/homelab" aria-label="View Homelab on GitHub">
+      <img src="{{ '/assets/images/projects/homelab.png' | relative_url }}" alt="Homelab architecture overview" width="1672" height="941" loading="lazy">
+    </a>
+    <figcaption><a href="https://github.com/asoderlind/homelab">Homelab</a>: A declaratively configured NixOS homelab for self-hosted apps, media, monitoring, and backups, managed with Nix flakes and deploy-rs.</figcaption>
+  </figure>
+
   <div class="project-card project-card--text">
     <p><a href="https://github.com/asoderlind/YOLO-LLD">YOLO-LLD</a>: Thesis work at Qualcomm exploring low-light traffic perception. A modified YOLO architecture improves night-time vehicle detection and adds monocular distance estimation.</p>
   </div>
