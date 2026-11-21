@@ -4,7 +4,7 @@ layout: page
 permalink: /projects/
 ---
 
-A selection of personal tools, experiments, and academic work.
+<p class="page-subheading">A selection of personal tools, and experiments.</p>
 
 <div class="project-list">
   <figure class="project-card">

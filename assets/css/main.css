@@ -76,9 +76,8 @@ strong { font-weight: 700; }
 
 main { width: min(var(--content-width), calc(100% - 48px)); margin: 80px auto 96px; flex: 1; min-width: 0; overflow-wrap: break-word; }
 .eyebrow { color: var(--text-secondary); font-size: .7rem; text-transform: uppercase; letter-spacing: .2em; margin: 0 0 20px; }
-main:has(.home-intro) { margin-top: 32px; }
 .home-intro { margin-bottom: 24px; }
-.home-intro h1 { max-width: 550px; color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; letter-spacing: normal; margin: 0; }
+.page-subheading { max-width: 550px; color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; letter-spacing: normal; margin: 0; }
 .post-list { list-style: none; padding: 0; margin: 0; }
 .post-list li { margin: 0; border-top: 1px solid var(--border-color); }
 .post-list li:last-child { border-bottom: 1px solid var(--border-color); }
@@ -136,7 +135,6 @@ th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border-
   .site-nav { justify-content: center; gap: 20px; }
   main { margin-top: 48px; margin-bottom: 64px; }
   .post-item { flex-direction: column; gap: 4px; padding: 19px 0; }
-  main:has(.home-intro) { margin-top: 24px; }
   .home-intro { margin-bottom: 20px; }
 }
 @media (prefers-reduced-motion: reduce) { a { transition: none; } }
