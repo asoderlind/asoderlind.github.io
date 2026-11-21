@@ -4,20 +4,38 @@ layout: page
 permalink: /projects/
 ---
 
-These are some of my personal and academic projects.
+A selection of personal tools, experiments, and academic work.
 
-## 🐒 💬 Bandar-baat - [hindi learning tool](https://github.com/asoderlind/bandar-baat)
+<div class="project-list">
+  <figure class="project-card">
+    <a class="project-preview" href="https://github.com/asoderlind/bunko" aria-label="View Bunko on GitHub">
+      <img src="{{ '/assets/images/projects/bunko.png' | relative_url }}" alt="Bunko note editor with its sidebar and writing area" width="2236" height="1262" loading="lazy">
+    </a>
+    <figcaption><a href="https://github.com/asoderlind/bunko">Bunko</a>: A self-hosted note-taking app for capturing ideas. A local language model handles the work of titling and tagging notes.</figcaption>
+  </figure>
 
-Tracking and improving hindi language knowledge using personalized AI-generated stories.
+  <figure class="project-card">
+    <a class="project-preview" href="https://github.com/asoderlind/bandar-baat" aria-label="View Bandar-baat on GitHub">
+      <img src="{{ '/assets/images/projects/bandar-baat.png' | relative_url }}" alt="Bandar-baat Hindi learning application" width="1267" height="789" loading="lazy">
+    </a>
+    <figcaption><a href="https://github.com/asoderlind/bandar-baat">Bandar-baat</a>: Learning Hindi through personalized, AI-generated stories and exercises that grow with your vocabulary and grammar knowledge.</figcaption>
+  </figure>
 
-## 🏋️‍♀️ Monke Bar — [Workout Tracker](https://github.com/asoderlind/monkebar/tree/master)
+  <figure class="project-card">
+    <a class="project-preview project-preview--portrait" href="https://github.com/asoderlind/monkebar" aria-label="View Monke Bar on GitHub">
+      <img src="{{ '/assets/images/projects/monkebar.png' | relative_url }}" alt="Monke Bar mobile workout tracking interface" width="370" height="641" loading="lazy">
+    </a>
+    <figcaption><a href="https://github.com/asoderlind/monkebar">Monke Bar</a>: A mobile-first workout tracker that makes progressive overload simpler, with exercise management, body measurements, and training analytics.</figcaption>
+  </figure>
 
-Mobile-first workout tracking app made to simplify progressive overload and visualize statistics.
+  <figure class="project-card">
+    <a class="project-preview" href="https://github.com/asoderlind/kanji-crush" aria-label="View Kanji Crush on GitHub">
+      <img src="{{ '/assets/images/projects/kanji-crush.jpg' | relative_url }}" alt="Kanji Crush Japanese character tile puzzle" width="1400" height="960" loading="lazy">
+    </a>
+    <figcaption><a href="https://github.com/asoderlind/kanji-crush">Kanji Crush</a>: A Japanese word puzzle: swap character tiles to form three-character compound words, with more tiles introduced at each level.</figcaption>
+  </figure>
 
-## 🇯🇵 Kanji Crush - [Japanese Learning Game](https://github.com/asoderlind/kanji-crush)
-
-Fun game to learn and practice three-character japanese words.
-
-## 🌃 🚗 YOLO-LLD - [Modified YOLO architecture for low-light traffic](https://github.com/asoderlind/YOLO-LLD/tree/main)
-
-Result of the thesis work at qualcomm, sucessfully increased the night-time vision capabilities as well as adding monocular distance estimation task to modern YOLO architecture.
+  <div class="project-card project-card--text">
+    <p><a href="https://github.com/asoderlind/YOLO-LLD">YOLO-LLD</a>: Thesis work at Qualcomm exploring low-light traffic perception. A modified YOLO architecture improves night-time vehicle detection and adds monocular distance estimation.</p>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+{% assign sorted_categories = site.categories | sort %}
+<nav class="category-index" aria-label="Browse categories">
+  {% for category in sorted_categories %}
+    <a href="#category-{{ category[0] | slugify: 'default' }}">{{ category[0] | escape }} ({{ category[1].size }})</a>
+  {% endfor %}
+</nav>
+
+{% for category in sorted_categories %}
+<section class="category-section" id="category-{{ category[0] | slugify: 'default' }}" aria-labelledby="heading-{{ category[0] | slugify: 'default' }}">
+  <h2 id="heading-{{ category[0] | slugify: 'default' }}">{{ category[0] | escape }}</h2>
+  <ul class="post-list">
+    {% assign category_posts = category[1] | sort: 'date' | reverse %}
+    {% for post in category_posts %}
+      <li class="post-item">
+        <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

@@ -1,13 +1,12 @@
-<footer>
-  <div>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
-  <div class="footer-links">
-    {% if site.author.links %}
+<footer class="site-footer">
+  <nav class="footer-links" aria-label="Social and feed links">
     {% for link in site.author.links %}
       {% if link.url %}
         <a href="{{ link.url }}">{{ link.label }}</a>
       {% endif %}
     {% endfor %}
-    {% endif %}
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
     <a href="https://iheartrss.com/">I &hearts; RSS</a>
-  </div>
+  </nav>
+  <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</p>
 </footer>

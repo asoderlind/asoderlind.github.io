@@ -1,11 +1,19 @@
-<header>
-  <div class="site-title">
-    <a href="{{ '/' | relative_url }}">{{ site.title | default: "soderlind.dev" }}</a>
-    <img class="site-title-gif" src="{{ '/assets/gifs/shiba1.gif' | relative_url }}" alt="" title="Woof!" width="32" height="32">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <img class="bookshelf-banner" src="{{ '/assets/images/bookshelf.png' | relative_url }}" alt="" width="1744" height="171" fetchpriority="high">
+  <div class="header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}" aria-label="Soderlind home">
+      <svg class="site-mark" viewBox="0 0 44 50" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M9 23h23v10a9 9 0 0 1-9 9h-5a9 9 0 0 1-9-9Z"/>
+        <path d="M32 25h3a5 5 0 0 1 0 10h-3M6 46h29"/>
+        <path d="M21 18c-7-5 7-7 1-13"/>
+      </svg>
+      <span>Soderlind</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for link in site.data.navigation.main %}
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </nav>
   </div>
-  <nav>
-    {% for link in site.data.navigation.main %}
-      <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-    {% endfor %}
-  </nav>
 </header>
